@@ -3,12 +3,8 @@ import math
 
 c = CurrencyRates()
 
-# Python program for Bellman-Ford's single source
-# shortest path algorithm.
-
 from collections import defaultdict
 
-# Class to represent a graph
 class Graph:
     def __init__(self, vertices):
         self.V = vertices # No. of vertices
@@ -78,4 +74,3 @@ g.addEdge(4, 3, -1*math.log(INR["CAD"]))
 
 # Print the solution
 g.BellmanFord(0)
-# This code is contributed by Neelam Yadav
